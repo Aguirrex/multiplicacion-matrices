@@ -1,0 +1,20 @@
+=== Matrix Multiplication Comparison Script ===
+This is a test to prove if the -O3 -floop-interchange flag change the result of the matrix multiplication.
+Started: lun 24 mar 2025 10:59:36 -05
+------------------------------------------------
+Generating input matrices (2000x2000)...
+Compiling standard version...
+Running standard version...
+Using standard multiplication method
+Multiplication computation time: 57.415518036 seconds
+Compiling optimized version...
+Running optimized version...
+Using standard multiplication method
+Multiplication computation time: 13.896337045 seconds
+Comparing results...
+Both result matrices are the same.
+Speedup with optimization: 4.13x faster
+------------------------------------------------
+Results saved in: plain_matrices/
+Log file saved in: logs/standard_vs_O3_floop.log
+Completed: lun 24 mar 2025 11:00:53 -05

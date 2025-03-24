@@ -1,0 +1,46 @@
+=== Matrix Multiplication Optimization Comparison ===
+Size: 2000x2000 | 2025-03-24 11:01:12
+------------------------------------------------
+Testing: Standard
+Compiling: gcc  sequential.c -o executables/seq_normal
+Running: executables/seq_normal 2000 --result plain_matrices/result_standardl.out 
+Using standard multiplication method
+Multiplication computation time: 59.329954340 seconds
+Testing: Transpose only
+Compiling: gcc  sequential.c -o executables/seq_transpose
+Running: executables/seq_transpose 2000 --result plain_matrices/result_transpose.out --transpose
+Using transpose multiplication method
+Multiplication computation time: 34.020085922 seconds
+Testing: O3 only
+Compiling: gcc -O3 sequential.c -o executables/seq_O3
+Running: executables/seq_O3 2000 --result plain_matrices/result_O3.out 
+Using standard multiplication method
+Multiplication computation time: 13.795838626 seconds
+Testing: O3 + Transpose
+Compiling: gcc -O3 sequential.c -o executables/seq_O3_transpose
+Running: executables/seq_O3_transpose 2000 --result plain_matrices/result_O3_transpose.out --transpose
+Using transpose multiplication method
+Multiplication computation time: 5.364461969 seconds
+Testing: O3 + Loop + Transpose
+Compiling: gcc -O3 -floop-interchange sequential.c -o executables/seq_O3_loop_transpose
+Running: executables/seq_O3_loop_transpose 2000 --result plain_matrices/result_O3_loop_transpose.out --transpose
+Using transpose multiplication method
+Multiplication computation time: 5.342834679 seconds
+Testing: O3 + Loop
+Compiling: gcc -O3 -floop-interchange sequential.c -o executables/seq_O3_loop
+Running: executables/seq_O3_loop 2000 --result plain_matrices/result_O3_loop.out 
+Using standard multiplication method
+Multiplication computation time: 13.452904716 seconds
+\n=== PERFORMANCE RESULTS ===
++-----------------------+--------------+------------+
+| Implementation        | Time (sec)   | Speedup    |
++-----------------------+--------------+------------+
+| O3 + Loop + Transpose |         5.34 |      11.10x |
+| O3 + Transpose        |         5.36 |      11.05x |
+| O3 + Loop             |        13.45 |       4.41x |
+| O3 only               |        13.80 |       4.30x |
+| Transpose only        |        34.02 |       1.74x |
+| Standard              |        59.33 |       1.00x |
++-----------------------+--------------+------------+
+Detailed logs available in: logs/optimization_comparison.log
+Executables saved in: executables/
