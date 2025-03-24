@@ -1,0 +1,1796 @@
+========== MATRIX MULTIPLICATION PERFORMANCE BENCHMARK ==========
+Started: lun 24 mar 2025 12:33:31 -05
+Configurations: Standard, Transpose Only, O3 + loop, O3 + transpose
+Dimensions: 10 100 200 400 800 1600 3200
+Iterations per configuration: 12
+=================================================================
+Starting simulations...
+=================================================================
+Processing dimension: 10 × 10
+=================================================================
+Iteration 1 of 12 for dimension 10
+Running: Dimension=10, Iteration=1, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000011874 seconds
+Time: 0.000011874 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=1, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000005867 seconds
+Time: 0.000005867 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=1, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000004260 seconds
+Time: 0.000004260 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=1, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000003283 seconds
+Time: 0.000003283 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 10
+Running: Dimension=10, Iteration=2, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000012502 seconds
+Time: 0.000012502 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=2, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000005797 seconds
+Time: 0.000005797 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=2, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000001956 seconds
+Time: 0.000001956 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=2, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000002863 seconds
+Time: 0.000002863 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 10
+Running: Dimension=10, Iteration=3, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000012223 seconds
+Time: 0.000012223 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=3, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000005797 seconds
+Time: 0.000005797 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=3, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000024864 seconds
+Time: 0.000024864 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=3, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000003282 seconds
+Time: 0.000003282 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 10
+Running: Dimension=10, Iteration=4, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000006146 seconds
+Time: 0.000006146 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=4, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000005866 seconds
+Time: 0.000005866 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=4, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000004191 seconds
+Time: 0.000004191 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=4, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000002863 seconds
+Time: 0.000002863 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 10
+Running: Dimension=10, Iteration=5, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000012013 seconds
+Time: 0.000012013 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=5, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000011873 seconds
+Time: 0.000011873 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=5, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000002863 seconds
+Time: 0.000002863 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=5, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000001816 seconds
+Time: 0.000001816 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 10
+Running: Dimension=10, Iteration=6, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000006216 seconds
+Time: 0.000006216 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=6, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000005168 seconds
+Time: 0.000005168 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=6, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000003353 seconds
+Time: 0.000003353 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=6, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000001956 seconds
+Time: 0.000001956 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 10
+Running: Dimension=10, Iteration=7, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000012851 seconds
+Time: 0.000012851 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=7, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000012223 seconds
+Time: 0.000012223 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=7, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000001886 seconds
+Time: 0.000001886 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=7, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000001886 seconds
+Time: 0.000001886 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 10
+Running: Dimension=10, Iteration=8, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000006285 seconds
+Time: 0.000006285 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=8, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000011943 seconds
+Time: 0.000011943 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=8, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000001886 seconds
+Time: 0.000001886 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=8, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000001886 seconds
+Time: 0.000001886 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 10
+Running: Dimension=10, Iteration=9, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000006216 seconds
+Time: 0.000006216 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=9, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000005727 seconds
+Time: 0.000005727 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=9, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000004260 seconds
+Time: 0.000004260 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=9, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000003282 seconds
+Time: 0.000003282 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 10
+Running: Dimension=10, Iteration=10, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000006076 seconds
+Time: 0.000006076 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=10, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000012292 seconds
+Time: 0.000012292 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=10, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000003422 seconds
+Time: 0.000003422 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=10, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000001886 seconds
+Time: 0.000001886 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 10
+Running: Dimension=10, Iteration=11, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000015156 seconds
+Time: 0.000015156 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=11, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000006146 seconds
+Time: 0.000006146 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=11, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000003841 seconds
+Time: 0.000003841 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=11, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000002864 seconds
+Time: 0.000002864 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 10
+Running: Dimension=10, Iteration=12, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.000006146 seconds
+Time: 0.000006146 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=12, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.000005657 seconds
+Time: 0.000005657 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=12, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000002374 seconds
+Time: 0.000002374 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=12, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000002933 seconds
+Time: 0.000002933 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 100 × 100
+=================================================================
+Iteration 1 of 12 for dimension 100
+Running: Dimension=100, Iteration=1, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.010862247 seconds
+Time: 0.010862247 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=1, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.005389777 seconds
+Time: 0.005389777 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=1, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001343761 seconds
+Time: 0.001343761 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=1, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000561599 seconds
+Time: 0.000561599 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 100
+Running: Dimension=100, Iteration=2, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.011146994 seconds
+Time: 0.011146994 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=2, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.004252190 seconds
+Time: 0.004252190 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=2, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001693669 seconds
+Time: 0.001693669 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=2, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.001246610 seconds
+Time: 0.001246610 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 100
+Running: Dimension=100, Iteration=3, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.010593496 seconds
+Time: 0.010593496 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=3, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.011106346 seconds
+Time: 0.011106346 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=3, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001308979 seconds
+Time: 0.001308979 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=3, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.001282648 seconds
+Time: 0.001282648 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 100
+Running: Dimension=100, Iteration=4, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.004282711 seconds
+Time: 0.004282711 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=4, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.004874204 seconds
+Time: 0.004874204 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=4, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000852701 seconds
+Time: 0.000852701 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=4, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.001585972 seconds
+Time: 0.001585972 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 100
+Running: Dimension=100, Iteration=5, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.010306096 seconds
+Time: 0.010306096 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=5, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.010835009 seconds
+Time: 0.010835009 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=5, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001512918 seconds
+Time: 0.001512918 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=5, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000561669 seconds
+Time: 0.000561669 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 100
+Running: Dimension=100, Iteration=6, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.005435454 seconds
+Time: 0.005435454 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=6, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.010682194 seconds
+Time: 0.010682194 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=6, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001467590 seconds
+Time: 0.001467590 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=6, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000553847 seconds
+Time: 0.000553847 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 100
+Running: Dimension=100, Iteration=7, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.010351703 seconds
+Time: 0.010351703 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=7, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.007114247 seconds
+Time: 0.007114247 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=7, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001525629 seconds
+Time: 0.001525629 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=7, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.001316591 seconds
+Time: 0.001316591 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 100
+Running: Dimension=100, Iteration=8, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.011008147 seconds
+Time: 0.011008147 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=8, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.004253587 seconds
+Time: 0.004253587 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=8, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001676278 seconds
+Time: 0.001676278 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=8, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.001445939 seconds
+Time: 0.001445939 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 100
+Running: Dimension=100, Iteration=9, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.010363995 seconds
+Time: 0.010363995 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=9, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.011127507 seconds
+Time: 0.011127507 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=9, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.000583810 seconds
+Time: 0.000583810 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=9, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.001254432 seconds
+Time: 0.001254432 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 100
+Running: Dimension=100, Iteration=10, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.004285016 seconds
+Time: 0.004285016 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=10, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.012108788 seconds
+Time: 0.012108788 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=10, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001654418 seconds
+Time: 0.001654418 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=10, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000557269 seconds
+Time: 0.000557269 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 100
+Running: Dimension=100, Iteration=11, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.010599851 seconds
+Time: 0.010599851 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=11, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.004255543 seconds
+Time: 0.004255543 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=11, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001672995 seconds
+Time: 0.001672995 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=11, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000581364 seconds
+Time: 0.000581364 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 100
+Running: Dimension=100, Iteration=12, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.012110464 seconds
+Time: 0.012110464 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=12, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.004250165 seconds
+Time: 0.004250165 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=12, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.001706379 seconds
+Time: 0.001706379 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=12, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.000690807 seconds
+Time: 0.000690807 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 200 × 200
+=================================================================
+Iteration 1 of 12 for dimension 200
+Running: Dimension=200, Iteration=1, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.043500742 seconds
+Time: 0.043500742 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=1, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.033952712 seconds
+Time: 0.033952712 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=1, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.012937533 seconds
+Time: 0.012937533 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=1, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.004282432 seconds
+Time: 0.004282432 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 200
+Running: Dimension=200, Iteration=2, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.044736737 seconds
+Time: 0.044736737 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=2, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.042871048 seconds
+Time: 0.042871048 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=2, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.012657187 seconds
+Time: 0.012657187 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=2, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.004250584 seconds
+Time: 0.004250584 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 200
+Running: Dimension=200, Iteration=3, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.034104548 seconds
+Time: 0.034104548 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=3, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.042236113 seconds
+Time: 0.042236113 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=3, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.012736039 seconds
+Time: 0.012736039 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=3, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.012251475 seconds
+Time: 0.012251475 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 200
+Running: Dimension=200, Iteration=4, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.033944192 seconds
+Time: 0.033944192 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=4, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.040903877 seconds
+Time: 0.040903877 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=4, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.011548027 seconds
+Time: 0.011548027 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=4, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.010166412 seconds
+Time: 0.010166412 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 200
+Running: Dimension=200, Iteration=5, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.033945658 seconds
+Time: 0.033945658 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=5, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.038111314 seconds
+Time: 0.038111314 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=5, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.011164803 seconds
+Time: 0.011164803 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=5, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.005861770 seconds
+Time: 0.005861770 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 200
+Running: Dimension=200, Iteration=6, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.042948782 seconds
+Time: 0.042948782 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=6, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.041888579 seconds
+Time: 0.041888579 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=6, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.012309304 seconds
+Time: 0.012309304 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=6, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.010210482 seconds
+Time: 0.010210482 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 200
+Running: Dimension=200, Iteration=7, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.041632469 seconds
+Time: 0.041632469 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=7, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.044337101 seconds
+Time: 0.044337101 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=7, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.004491330 seconds
+Time: 0.004491330 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=7, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.010755599 seconds
+Time: 0.010755599 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 200
+Running: Dimension=200, Iteration=8, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.040962824 seconds
+Time: 0.040962824 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=8, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.033809536 seconds
+Time: 0.033809536 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=8, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.011227661 seconds
+Time: 0.011227661 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=8, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.010237441 seconds
+Time: 0.010237441 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 200
+Running: Dimension=200, Iteration=9, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.034037640 seconds
+Time: 0.034037640 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=9, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.033779644 seconds
+Time: 0.033779644 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=9, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.004526391 seconds
+Time: 0.004526391 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=9, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.011812658 seconds
+Time: 0.011812658 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 200
+Running: Dimension=200, Iteration=10, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.042451926 seconds
+Time: 0.042451926 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=10, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.042765306 seconds
+Time: 0.042765306 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=10, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.012489705 seconds
+Time: 0.012489705 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=10, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.010050195 seconds
+Time: 0.010050195 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 200
+Running: Dimension=200, Iteration=11, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.034301015 seconds
+Time: 0.034301015 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=11, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.033797593 seconds
+Time: 0.033797593 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=11, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.004479527 seconds
+Time: 0.004479527 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=11, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.012240998 seconds
+Time: 0.012240998 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 200
+Running: Dimension=200, Iteration=12, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.047035516 seconds
+Time: 0.047035516 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=12, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.042879778 seconds
+Time: 0.042879778 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=12, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.004486022 seconds
+Time: 0.004486022 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=12, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.010521070 seconds
+Time: 0.010521070 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 400 × 400
+=================================================================
+Iteration 1 of 12 for dimension 400
+Running: Dimension=400, Iteration=1, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.274402110 seconds
+Time: 0.274402110 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=1, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.271562265 seconds
+Time: 0.271562265 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=1, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.039743941 seconds
+Time: 0.039743941 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=1, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.034424984 seconds
+Time: 0.034424984 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 400
+Running: Dimension=400, Iteration=2, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.274009598 seconds
+Time: 0.274009598 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=2, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.269400096 seconds
+Time: 0.269400096 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=2, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.039849193 seconds
+Time: 0.039849193 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=2, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.034902633 seconds
+Time: 0.034902633 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 400
+Running: Dimension=400, Iteration=3, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.271361469 seconds
+Time: 0.271361469 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=3, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.270444933 seconds
+Time: 0.270444933 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=3, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.038996073 seconds
+Time: 0.038996073 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=3, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.038306942 seconds
+Time: 0.038306942 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 400
+Running: Dimension=400, Iteration=4, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.271314397 seconds
+Time: 0.271314397 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=4, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.269444168 seconds
+Time: 0.269444168 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=4, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.041370073 seconds
+Time: 0.041370073 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=4, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.034403193 seconds
+Time: 0.034403193 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 400
+Running: Dimension=400, Iteration=5, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.275213117 seconds
+Time: 0.275213117 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=5, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.272774025 seconds
+Time: 0.272774025 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=5, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.041069822 seconds
+Time: 0.041069822 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=5, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.034640586 seconds
+Time: 0.034640586 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 400
+Running: Dimension=400, Iteration=6, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.271494729 seconds
+Time: 0.271494729 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=6, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.268357846 seconds
+Time: 0.268357846 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=6, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.044069956 seconds
+Time: 0.044069956 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=6, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.036645890 seconds
+Time: 0.036645890 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 400
+Running: Dimension=400, Iteration=7, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.275677846 seconds
+Time: 0.275677846 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=7, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.272204743 seconds
+Time: 0.272204743 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=7, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.044145036 seconds
+Time: 0.044145036 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=7, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.036705605 seconds
+Time: 0.036705605 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 400
+Running: Dimension=400, Iteration=8, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.272830388 seconds
+Time: 0.272830388 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=8, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.271284506 seconds
+Time: 0.271284506 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=8, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.042705731 seconds
+Time: 0.042705731 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=8, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.038692400 seconds
+Time: 0.038692400 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 400
+Running: Dimension=400, Iteration=9, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.274194891 seconds
+Time: 0.274194891 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=9, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.270883473 seconds
+Time: 0.270883473 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=9, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.043252245 seconds
+Time: 0.043252245 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=9, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.037928958 seconds
+Time: 0.037928958 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 400
+Running: Dimension=400, Iteration=10, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.270045648 seconds
+Time: 0.270045648 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=10, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.271386336 seconds
+Time: 0.271386336 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=10, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.040243522 seconds
+Time: 0.040243522 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=10, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.039271600 seconds
+Time: 0.039271600 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 400
+Running: Dimension=400, Iteration=11, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.269961838 seconds
+Time: 0.269961838 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=11, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.273995913 seconds
+Time: 0.273995913 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=11, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.043792543 seconds
+Time: 0.043792543 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=11, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.034659444 seconds
+Time: 0.034659444 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 400
+Running: Dimension=400, Iteration=12, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 0.271398140 seconds
+Time: 0.271398140 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=12, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 0.268714321 seconds
+Time: 0.268714321 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=12, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.042334801 seconds
+Time: 0.042334801 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=12, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.034188010 seconds
+Time: 0.034188010 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 800 × 800
+=================================================================
+Iteration 1 of 12 for dimension 800
+Running: Dimension=800, Iteration=1, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.608114191 seconds
+Time: 2.608114191 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=1, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.173741554 seconds
+Time: 2.173741554 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=1, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.379397419 seconds
+Time: 0.379397419 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=1, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.319932259 seconds
+Time: 0.319932259 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 800
+Running: Dimension=800, Iteration=2, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.583235928 seconds
+Time: 2.583235928 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=2, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.172888589 seconds
+Time: 2.172888589 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=2, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.409661359 seconds
+Time: 0.409661359 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=2, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.322520397 seconds
+Time: 0.322520397 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 800
+Running: Dimension=800, Iteration=3, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.608637762 seconds
+Time: 2.608637762 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=3, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.181176964 seconds
+Time: 2.181176964 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=3, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.504470209 seconds
+Time: 0.504470209 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=3, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.369560247 seconds
+Time: 0.369560247 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 800
+Running: Dimension=800, Iteration=4, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.890196961 seconds
+Time: 2.890196961 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=4, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.204498831 seconds
+Time: 2.204498831 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=4, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.394399001 seconds
+Time: 0.394399001 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=4, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.325439238 seconds
+Time: 0.325439238 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 800
+Running: Dimension=800, Iteration=5, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.644176206 seconds
+Time: 2.644176206 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=5, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.181049392 seconds
+Time: 2.181049392 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=5, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.380020978 seconds
+Time: 0.380020978 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=5, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.322194590 seconds
+Time: 0.322194590 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 800
+Running: Dimension=800, Iteration=6, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.557910937 seconds
+Time: 2.557910937 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=6, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.173179958 seconds
+Time: 2.173179958 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=6, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.381889255 seconds
+Time: 0.381889255 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=6, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.324180550 seconds
+Time: 0.324180550 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 800
+Running: Dimension=800, Iteration=7, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.578947296 seconds
+Time: 2.578947296 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=7, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.189544025 seconds
+Time: 2.189544025 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=7, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.418086484 seconds
+Time: 0.418086484 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=7, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.327813594 seconds
+Time: 0.327813594 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 800
+Running: Dimension=800, Iteration=8, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.579766769 seconds
+Time: 2.579766769 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=8, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.182848564 seconds
+Time: 2.182848564 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=8, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.379028740 seconds
+Time: 0.379028740 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=8, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.319022163 seconds
+Time: 0.319022163 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 800
+Running: Dimension=800, Iteration=9, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.570011114 seconds
+Time: 2.570011114 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=9, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.174036611 seconds
+Time: 2.174036611 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=9, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.388787418 seconds
+Time: 0.388787418 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=9, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.323884426 seconds
+Time: 0.323884426 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 800
+Running: Dimension=800, Iteration=10, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.574787415 seconds
+Time: 2.574787415 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=10, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.173572245 seconds
+Time: 2.173572245 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=10, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.374248619 seconds
+Time: 0.374248619 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=10, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.322154372 seconds
+Time: 0.322154372 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 800
+Running: Dimension=800, Iteration=11, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.556229291 seconds
+Time: 2.556229291 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=11, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.172381872 seconds
+Time: 2.172381872 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=11, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.405979522 seconds
+Time: 0.405979522 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=11, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.322886039 seconds
+Time: 0.322886039 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 800
+Running: Dimension=800, Iteration=12, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 2.529129280 seconds
+Time: 2.529129280 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=12, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 2.173974562 seconds
+Time: 2.173974562 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=12, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 0.393558891 seconds
+Time: 0.393558891 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=12, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 0.355192369 seconds
+Time: 0.355192369 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 1600 × 1600
+=================================================================
+Iteration 1 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=1, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 29.978186256 seconds
+Time: 29.978186256 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=1, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.396353952 seconds
+Time: 17.396353952 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=1, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.478672393 seconds
+Time: 6.478672393 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=1, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.879334326 seconds
+Time: 2.879334326 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=2, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 29.930231023 seconds
+Time: 29.930231023 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=2, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.403605614 seconds
+Time: 17.403605614 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=2, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.513404796 seconds
+Time: 6.513404796 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=2, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.853066045 seconds
+Time: 2.853066045 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=3, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 29.795464641 seconds
+Time: 29.795464641 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=3, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.391771314 seconds
+Time: 17.391771314 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=3, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.503076913 seconds
+Time: 6.503076913 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=3, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.862888750 seconds
+Time: 2.862888750 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=4, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.073526326 seconds
+Time: 30.073526326 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=4, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.500364693 seconds
+Time: 17.500364693 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=4, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.484113382 seconds
+Time: 6.484113382 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=4, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.883434220 seconds
+Time: 2.883434220 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=5, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.501228073 seconds
+Time: 30.501228073 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=5, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.413588704 seconds
+Time: 17.413588704 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=5, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.518731509 seconds
+Time: 6.518731509 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=5, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.879878732 seconds
+Time: 2.879878732 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=6, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.174258905 seconds
+Time: 30.174258905 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=6, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.370763807 seconds
+Time: 17.370763807 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=6, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.543379383 seconds
+Time: 6.543379383 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=6, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.878838385 seconds
+Time: 2.878838385 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=7, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.050730911 seconds
+Time: 30.050730911 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=7, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.504939013 seconds
+Time: 17.504939013 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=7, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.533879513 seconds
+Time: 6.533879513 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=7, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.913150666 seconds
+Time: 2.913150666 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=8, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.262394833 seconds
+Time: 30.262394833 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=8, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.403994538 seconds
+Time: 17.403994538 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=8, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.540053503 seconds
+Time: 6.540053503 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=8, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.882636685 seconds
+Time: 2.882636685 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=9, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.469729173 seconds
+Time: 30.469729173 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=9, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.389922745 seconds
+Time: 17.389922745 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=9, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.523179604 seconds
+Time: 6.523179604 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=9, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.881280626 seconds
+Time: 2.881280626 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=10, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.068755534 seconds
+Time: 30.068755534 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=10, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.507058735 seconds
+Time: 17.507058735 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=10, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.494292579 seconds
+Time: 6.494292579 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=10, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.867704649 seconds
+Time: 2.867704649 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=11, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.110338447 seconds
+Time: 30.110338447 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=11, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.446937493 seconds
+Time: 17.446937493 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=11, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.538024144 seconds
+Time: 6.538024144 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=11, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.884975097 seconds
+Time: 2.884975097 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=12, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 30.390262348 seconds
+Time: 30.390262348 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=12, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 17.379954792 seconds
+Time: 17.379954792 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=12, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 6.564958899 seconds
+Time: 6.564958899 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=12, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 2.862802251 seconds
+Time: 2.862802251 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 3200 × 3200
+=================================================================
+Iteration 1 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=1, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 264.649504588 seconds
+Time: 264.649504588 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=1, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.992584156 seconds
+Time: 137.992584156 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=1, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 118.110971807 seconds
+Time: 118.110971807 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=1, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.328950923 seconds
+Time: 20.328950923 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=2, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 270.200453341 seconds
+Time: 270.200453341 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=2, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 138.006752946 seconds
+Time: 138.006752946 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=2, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 116.636312777 seconds
+Time: 116.636312777 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=2, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.344319691 seconds
+Time: 20.344319691 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=3, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 259.787162207 seconds
+Time: 259.787162207 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=3, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.908740664 seconds
+Time: 137.908740664 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=3, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 119.542285662 seconds
+Time: 119.542285662 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=3, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.195036683 seconds
+Time: 20.195036683 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=4, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 267.543501735 seconds
+Time: 267.543501735 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=4, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.791318290 seconds
+Time: 137.791318290 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=4, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 117.684746384 seconds
+Time: 117.684746384 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=4, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.167912677 seconds
+Time: 20.167912677 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=5, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 270.378688933 seconds
+Time: 270.378688933 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=5, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.864104568 seconds
+Time: 137.864104568 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=5, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 117.443941657 seconds
+Time: 117.443941657 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=5, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.353842583 seconds
+Time: 20.353842583 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=6, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 259.876359721 seconds
+Time: 259.876359721 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=6, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 138.142122826 seconds
+Time: 138.142122826 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=6, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 115.298866697 seconds
+Time: 115.298866697 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=6, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.301241086 seconds
+Time: 20.301241086 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=7, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 263.473564741 seconds
+Time: 263.473564741 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=7, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.714245027 seconds
+Time: 137.714245027 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=7, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 114.512442849 seconds
+Time: 114.512442849 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=7, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.479962550 seconds
+Time: 20.479962550 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=8, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 263.877908219 seconds
+Time: 263.877908219 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=8, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.649951545 seconds
+Time: 137.649951545 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=8, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 117.718956549 seconds
+Time: 117.718956549 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=8, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.308750145 seconds
+Time: 20.308750145 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=9, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 265.766798677 seconds
+Time: 265.766798677 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=9, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.598981047 seconds
+Time: 137.598981047 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=9, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 116.491955898 seconds
+Time: 116.491955898 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=9, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.348109830 seconds
+Time: 20.348109830 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=10, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 265.639288917 seconds
+Time: 265.639288917 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=10, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.729446916 seconds
+Time: 137.729446916 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=10, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 114.444312608 seconds
+Time: 114.444312608 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=10, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.341570672 seconds
+Time: 20.341570672 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=11, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 271.726827427 seconds
+Time: 271.726827427 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=11, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.714666023 seconds
+Time: 137.714666023 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=11, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 116.357220456 seconds
+Time: 116.357220456 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=11, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.187201366 seconds
+Time: 20.187201366 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=12, Config=Standard
+Using standard multiplication method
+Multiplication computation time: 268.709116056 seconds
+Time: 268.709116056 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=12, Config=Transpose Only
+Using transpose multiplication method
+Multiplication computation time: 137.746709140 seconds
+Time: 137.746709140 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=12, Config=O3 + loop
+Using standard multiplication method
+Multiplication computation time: 120.140908599 seconds
+Time: 120.140908599 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=12, Config=O3 + transpose
+Using transpose multiplication method
+Multiplication computation time: 20.197262738 seconds
+Time: 20.197262738 seconds
+----------------------------------------
+All simulations completed.
+Results saved to: matrix_results.csv
+Generating plot...
+Benchmark completed. Plot saved as matrix_multiplication_performance.png
