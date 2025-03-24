@@ -25,11 +25,12 @@ This will enable the compiler to do high-level optimizations, including:
 ## Execution
 
 ```bash
-./sequential [n] [--files matrixA.txt matrixB.txt] [--result outputFile]
+./sequential [n] [--files matrixA.txt matrixB.txt] [--result outputFile] [--transpose]
 ```
 - When `n` is not provided, it defaults to 2000.
 - Optionally, pass `--files` followed by two filenames to read matrices from files, when --files is provided you must provide `n`.
 - Optionally, pass `--result` followed by a filename to write the result matrix to a file, when not provided, the result is writed in result.out
+- Optionally, pass `--transpose` to simulate the transpose of the matrix B, for cache optimization.
 
 ## Generating Matrices
 
@@ -57,7 +58,7 @@ gprof -l sequential > gprof.out
 Checks if using `-O3 -floop-interchange` changes the matrix multiplication logic compared to standard compilation. It compiles the code with and without these flags, runs both versions, and compares their outputs to detect any differences.
 
 - **O3_transpose_comparation.sh**  
-Compares different compilation and execution flags (`-O3`, `-floop-interchange`, `--transpose`). It compiles each variant, runs them, and logs performance data to highlight the effects of these flags on execution time.
+Compares different compilation (`-O3`, `-floop-interchange`) and execution flags (`--transpose`) for simulation of using the transpose of the matrix B, for cache optimization. It compiles each variant, runs them, and logs performance data to highlight the effects of these flags on execution time.
 
 - **main_run.sh**  
 Acts as the main testing script, running matrix multiplication for various dimensions and configurations. It gathers execution times across multiple iterations, storing results in a CSV file for later analysis.
