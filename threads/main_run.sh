@@ -85,6 +85,6 @@ log "Results saved to: $RESULTS_CSV"
 log "Generating plot with existing script..."
 
 # Reuse the same Python plot script from sequential
-python3 ../sequential/plot_matrix_results.py $RESULTS_CSV
+python3 ../utils/plot_matrix_results.py $RESULTS_CSV
 
 log "Benchmark completed. Plot saved as matrix_multiplication_performance.png"

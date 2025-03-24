@@ -83,6 +83,6 @@ log "Results saved to: $RESULTS_CSV"
 log "Generating plot..."
 
 # Run the Python script to generate the plot
-python3 plot_matrix_results.py $RESULTS_CSV
+python3 ../utils/plot_matrix_results.py $RESULTS_CSV
 
 log "Benchmark completed. Plot saved as matrix_multiplication_performance.png"
