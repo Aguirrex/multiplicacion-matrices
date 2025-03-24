@@ -1,0 +1,2468 @@
+========== THREADS MATRIX MULTIPLICATION PERFORMANCE BENCHMARK ==========
+Started: lun 24 mar 2025 16:01:09 -05
+Configurations: Standard, Transpose Only, O3 + loop, O3 + transpose
+Dimensions: 10 100 200 400 800 1600 3200
+Iterations per configuration: 12
+=========================================================================
+Starting simulations...
+=================================================================
+Processing dimension: 10 × 10
+=================================================================
+Iteration 1 of 12 for dimension 10
+Running: Dimension=10, Iteration=1, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000277970 seconds
+Time: 0.000277970 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=1, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000353539 seconds
+Time: 0.000353539 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=1, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000307583 seconds
+Time: 0.000307583 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=1, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000197442 seconds
+Time: 0.000197442 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 10
+Running: Dimension=10, Iteration=2, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000176420 seconds
+Time: 0.000176420 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=2, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000306186 seconds
+Time: 0.000306186 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=2, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000328815 seconds
+Time: 0.000328815 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=2, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000296339 seconds
+Time: 0.000296339 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 10
+Running: Dimension=10, Iteration=3, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000284326 seconds
+Time: 0.000284326 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=3, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000308351 seconds
+Time: 0.000308351 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=3, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000218604 seconds
+Time: 0.000218604 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=3, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000350256 seconds
+Time: 0.000350256 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 10
+Running: Dimension=10, Iteration=4, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000234110 seconds
+Time: 0.000234110 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=4, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000257646 seconds
+Time: 0.000257646 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=4, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000317431 seconds
+Time: 0.000317431 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=4, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000216928 seconds
+Time: 0.000216928 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 10
+Running: Dimension=10, Iteration=5, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000263374 seconds
+Time: 0.000263374 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=5, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000319176 seconds
+Time: 0.000319176 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=5, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000317431 seconds
+Time: 0.000317431 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=5, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000317082 seconds
+Time: 0.000317082 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 10
+Running: Dimension=10, Iteration=6, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000260160 seconds
+Time: 0.000260160 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=6, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000252338 seconds
+Time: 0.000252338 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=6, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000296129 seconds
+Time: 0.000296129 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=6, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000337755 seconds
+Time: 0.000337755 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 10
+Running: Dimension=10, Iteration=7, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000336288 seconds
+Time: 0.000336288 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=7, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000367018 seconds
+Time: 0.000367018 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=7, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000161474 seconds
+Time: 0.000161474 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=7, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000305138 seconds
+Time: 0.000305138 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 10
+Running: Dimension=10, Iteration=8, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000281463 seconds
+Time: 0.000281463 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=8, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000328814 seconds
+Time: 0.000328814 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=8, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000322668 seconds
+Time: 0.000322668 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=8, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000307304 seconds
+Time: 0.000307304 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 10
+Running: Dimension=10, Iteration=9, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000239138 seconds
+Time: 0.000239138 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=9, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000329234 seconds
+Time: 0.000329234 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=9, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000363177 seconds
+Time: 0.000363177 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=9, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000295291 seconds
+Time: 0.000295291 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 10
+Running: Dimension=10, Iteration=10, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000276084 seconds
+Time: 0.000276084 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=10, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000325323 seconds
+Time: 0.000325323 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=10, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000340968 seconds
+Time: 0.000340968 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=10, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000253805 seconds
+Time: 0.000253805 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 10
+Running: Dimension=10, Iteration=11, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000195906 seconds
+Time: 0.000195906 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=11, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000293474 seconds
+Time: 0.000293474 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=11, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000176840 seconds
+Time: 0.000176840 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=11, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000265259 seconds
+Time: 0.000265259 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 10
+Running: Dimension=10, Iteration=12, Config=Standard
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000365901 seconds
+Time: 0.000365901 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=12, Config=Transpose Only
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000264910 seconds
+Time: 0.000264910 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=12, Config=O3 + loop
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000309329 seconds
+Time: 0.000309329 seconds
+----------------------------------------
+Running: Dimension=10, Iteration=12, Config=O3 + transpose
+Matrix size: 10 x 10
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000227474 seconds
+Time: 0.000227474 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 100 × 100
+=================================================================
+Iteration 1 of 12 for dimension 100
+Running: Dimension=100, Iteration=1, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002232212 seconds
+Time: 0.002232212 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=1, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002063474 seconds
+Time: 0.002063474 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=1, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000597286 seconds
+Time: 0.000597286 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=1, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000607065 seconds
+Time: 0.000607065 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 100
+Running: Dimension=100, Iteration=2, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002547407 seconds
+Time: 0.002547407 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=2, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002073042 seconds
+Time: 0.002073042 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=2, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000486587 seconds
+Time: 0.000486587 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=2, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000664684 seconds
+Time: 0.000664684 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 100
+Running: Dimension=100, Iteration=3, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002342910 seconds
+Time: 0.002342910 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=3, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.003407997 seconds
+Time: 0.003407997 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=3, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000572772 seconds
+Time: 0.000572772 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=3, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000627458 seconds
+Time: 0.000627458 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 100
+Running: Dimension=100, Iteration=4, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002003130 seconds
+Time: 0.002003130 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=4, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002138763 seconds
+Time: 0.002138763 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=4, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000683052 seconds
+Time: 0.000683052 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=4, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000639890 seconds
+Time: 0.000639890 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 100
+Running: Dimension=100, Iteration=5, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.001877415 seconds
+Time: 0.001877415 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=5, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002726341 seconds
+Time: 0.002726341 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=5, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000691991 seconds
+Time: 0.000691991 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=5, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000576054 seconds
+Time: 0.000576054 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 100
+Running: Dimension=100, Iteration=6, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002196452 seconds
+Time: 0.002196452 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=6, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.001833554 seconds
+Time: 0.001833554 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=6, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000415698 seconds
+Time: 0.000415698 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=6, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000690944 seconds
+Time: 0.000690944 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 100
+Running: Dimension=100, Iteration=7, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.001632759 seconds
+Time: 0.001632759 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=7, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.001822031 seconds
+Time: 0.001822031 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=7, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000617890 seconds
+Time: 0.000617890 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=7, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000435393 seconds
+Time: 0.000435393 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 100
+Running: Dimension=100, Iteration=8, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002441527 seconds
+Time: 0.002441527 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=8, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.001818189 seconds
+Time: 0.001818189 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=8, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000503838 seconds
+Time: 0.000503838 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=8, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000583528 seconds
+Time: 0.000583528 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 100
+Running: Dimension=100, Iteration=9, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.001774329 seconds
+Time: 0.001774329 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=9, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.001990699 seconds
+Time: 0.001990699 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=9, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000474435 seconds
+Time: 0.000474435 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=9, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000547908 seconds
+Time: 0.000547908 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 100
+Running: Dimension=100, Iteration=10, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.001838444 seconds
+Time: 0.001838444 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=10, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002520867 seconds
+Time: 0.002520867 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=10, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000613071 seconds
+Time: 0.000613071 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=10, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000485120 seconds
+Time: 0.000485120 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 100
+Running: Dimension=100, Iteration=11, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002273278 seconds
+Time: 0.002273278 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=11, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.001765529 seconds
+Time: 0.001765529 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=11, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000679141 seconds
+Time: 0.000679141 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=11, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000417304 seconds
+Time: 0.000417304 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 100
+Running: Dimension=100, Iteration=12, Config=Standard
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.001988813 seconds
+Time: 0.001988813 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=12, Config=Transpose Only
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002437686 seconds
+Time: 0.002437686 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=12, Config=O3 + loop
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.000498669 seconds
+Time: 0.000498669 seconds
+----------------------------------------
+Running: Dimension=100, Iteration=12, Config=O3 + transpose
+Matrix size: 100 x 100
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.000499718 seconds
+Time: 0.000499718 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 200 × 200
+=================================================================
+Iteration 1 of 12 for dimension 200
+Running: Dimension=200, Iteration=1, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.012245070 seconds
+Time: 0.012245070 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=1, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.011010058 seconds
+Time: 0.011010058 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=1, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002470791 seconds
+Time: 0.002470791 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=1, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002366307 seconds
+Time: 0.002366307 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 200
+Running: Dimension=200, Iteration=2, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.009538982 seconds
+Time: 0.009538982 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=2, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.012928052 seconds
+Time: 0.012928052 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=2, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002495864 seconds
+Time: 0.002495864 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=2, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002298421 seconds
+Time: 0.002298421 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 200
+Running: Dimension=200, Iteration=3, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.013858762 seconds
+Time: 0.013858762 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=3, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013099723 seconds
+Time: 0.013099723 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=3, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002811269 seconds
+Time: 0.002811269 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=3, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002463247 seconds
+Time: 0.002463247 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 200
+Running: Dimension=200, Iteration=4, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.012956897 seconds
+Time: 0.012956897 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=4, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.014378036 seconds
+Time: 0.014378036 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=4, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002576322 seconds
+Time: 0.002576322 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=4, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002706088 seconds
+Time: 0.002706088 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 200
+Running: Dimension=200, Iteration=5, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.011076199 seconds
+Time: 0.011076199 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=5, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013401788 seconds
+Time: 0.013401788 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=5, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002410448 seconds
+Time: 0.002410448 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=5, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002145398 seconds
+Time: 0.002145398 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 200
+Running: Dimension=200, Iteration=6, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.012997963 seconds
+Time: 0.012997963 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=6, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.012686889 seconds
+Time: 0.012686889 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=6, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002347240 seconds
+Time: 0.002347240 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=6, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.001832926 seconds
+Time: 0.001832926 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 200
+Running: Dimension=200, Iteration=7, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.010287616 seconds
+Time: 0.010287616 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=7, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013079748 seconds
+Time: 0.013079748 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=7, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.003283888 seconds
+Time: 0.003283888 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=7, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002158667 seconds
+Time: 0.002158667 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 200
+Running: Dimension=200, Iteration=8, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.013091691 seconds
+Time: 0.013091691 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=8, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.009683206 seconds
+Time: 0.009683206 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=8, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002266504 seconds
+Time: 0.002266504 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=8, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002370638 seconds
+Time: 0.002370638 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 200
+Running: Dimension=200, Iteration=9, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.015110675 seconds
+Time: 0.015110675 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=9, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013272651 seconds
+Time: 0.013272651 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=9, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002278098 seconds
+Time: 0.002278098 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=9, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002469184 seconds
+Time: 0.002469184 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 200
+Running: Dimension=200, Iteration=10, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.011351236 seconds
+Time: 0.011351236 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=10, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.009334137 seconds
+Time: 0.009334137 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=10, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002452003 seconds
+Time: 0.002452003 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=10, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002754627 seconds
+Time: 0.002754627 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 200
+Running: Dimension=200, Iteration=11, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.011770076 seconds
+Time: 0.011770076 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=11, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.012503554 seconds
+Time: 0.012503554 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=11, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.002268948 seconds
+Time: 0.002268948 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=11, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002341513 seconds
+Time: 0.002341513 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 200
+Running: Dimension=200, Iteration=12, Config=Standard
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.010889163 seconds
+Time: 0.010889163 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=12, Config=Transpose Only
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.011312753 seconds
+Time: 0.011312753 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=12, Config=O3 + loop
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.001999918 seconds
+Time: 0.001999918 seconds
+----------------------------------------
+Running: Dimension=200, Iteration=12, Config=O3 + transpose
+Matrix size: 200 x 200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.002186884 seconds
+Time: 0.002186884 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 400 × 400
+=================================================================
+Iteration 1 of 12 for dimension 400
+Running: Dimension=400, Iteration=1, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.056794870 seconds
+Time: 0.056794870 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=1, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.061322639 seconds
+Time: 0.061322639 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=1, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.016168149 seconds
+Time: 0.016168149 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=1, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013723340 seconds
+Time: 0.013723340 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 400
+Running: Dimension=400, Iteration=2, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.059851702 seconds
+Time: 0.059851702 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=2, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.051377247 seconds
+Time: 0.051377247 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=2, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.012920299 seconds
+Time: 0.012920299 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=2, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.015196581 seconds
+Time: 0.015196581 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 400
+Running: Dimension=400, Iteration=3, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.052751732 seconds
+Time: 0.052751732 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=3, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.063555549 seconds
+Time: 0.063555549 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=3, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.017564913 seconds
+Time: 0.017564913 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=3, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013524221 seconds
+Time: 0.013524221 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 400
+Running: Dimension=400, Iteration=4, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.053866336 seconds
+Time: 0.053866336 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=4, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.061919855 seconds
+Time: 0.061919855 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=4, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.015851487 seconds
+Time: 0.015851487 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=4, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013519402 seconds
+Time: 0.013519402 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 400
+Running: Dimension=400, Iteration=5, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.053752984 seconds
+Time: 0.053752984 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=5, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.062271927 seconds
+Time: 0.062271927 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=5, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.015808185 seconds
+Time: 0.015808185 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=5, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.014419802 seconds
+Time: 0.014419802 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 400
+Running: Dimension=400, Iteration=6, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.053612532 seconds
+Time: 0.053612532 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=6, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.061057380 seconds
+Time: 0.061057380 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=6, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.014396684 seconds
+Time: 0.014396684 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=6, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.014064447 seconds
+Time: 0.014064447 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 400
+Running: Dimension=400, Iteration=7, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.053009379 seconds
+Time: 0.053009379 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=7, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.070963241 seconds
+Time: 0.070963241 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=7, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.016444583 seconds
+Time: 0.016444583 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=7, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.014378874 seconds
+Time: 0.014378874 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 400
+Running: Dimension=400, Iteration=8, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.053873111 seconds
+Time: 0.053873111 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=8, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.065599747 seconds
+Time: 0.065599747 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=8, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.015431668 seconds
+Time: 0.015431668 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=8, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.014776484 seconds
+Time: 0.014776484 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 400
+Running: Dimension=400, Iteration=9, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.056459071 seconds
+Time: 0.056459071 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=9, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.058686533 seconds
+Time: 0.058686533 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=9, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.016008003 seconds
+Time: 0.016008003 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=9, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.013687441 seconds
+Time: 0.013687441 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 400
+Running: Dimension=400, Iteration=10, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.063044727 seconds
+Time: 0.063044727 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=10, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.118312298 seconds
+Time: 0.118312298 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=10, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.014047754 seconds
+Time: 0.014047754 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=10, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.011314359 seconds
+Time: 0.011314359 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 400
+Running: Dimension=400, Iteration=11, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.055506011 seconds
+Time: 0.055506011 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=11, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.059257070 seconds
+Time: 0.059257070 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=11, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.016166055 seconds
+Time: 0.016166055 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=11, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.016509675 seconds
+Time: 0.016509675 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 400
+Running: Dimension=400, Iteration=12, Config=Standard
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.053245304 seconds
+Time: 0.053245304 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=12, Config=Transpose Only
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.063339319 seconds
+Time: 0.063339319 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=12, Config=O3 + loop
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.015580012 seconds
+Time: 0.015580012 seconds
+----------------------------------------
+Running: Dimension=400, Iteration=12, Config=O3 + transpose
+Matrix size: 400 x 400
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.015530913 seconds
+Time: 0.015530913 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 800 × 800
+=================================================================
+Iteration 1 of 12 for dimension 800
+Running: Dimension=800, Iteration=1, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.474732354 seconds
+Time: 0.474732354 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=1, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.414840842 seconds
+Time: 0.414840842 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=1, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.081346821 seconds
+Time: 0.081346821 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=1, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.068207148 seconds
+Time: 0.068207148 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 800
+Running: Dimension=800, Iteration=2, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.459464467 seconds
+Time: 0.459464467 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=2, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.408552574 seconds
+Time: 0.408552574 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=2, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.089705129 seconds
+Time: 0.089705129 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=2, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.074840436 seconds
+Time: 0.074840436 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 800
+Running: Dimension=800, Iteration=3, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.452602938 seconds
+Time: 0.452602938 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=3, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.400133995 seconds
+Time: 0.400133995 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=3, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.096059959 seconds
+Time: 0.096059959 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=3, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.080588061 seconds
+Time: 0.080588061 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 800
+Running: Dimension=800, Iteration=4, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.455197421 seconds
+Time: 0.455197421 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=4, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.409378317 seconds
+Time: 0.409378317 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=4, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.117894438 seconds
+Time: 0.117894438 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=4, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.083523579 seconds
+Time: 0.083523579 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 800
+Running: Dimension=800, Iteration=5, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.475737804 seconds
+Time: 0.475737804 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=5, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.400815444 seconds
+Time: 0.400815444 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=5, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.088562171 seconds
+Time: 0.088562171 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=5, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.080204491 seconds
+Time: 0.080204491 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 800
+Running: Dimension=800, Iteration=6, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.590388516 seconds
+Time: 0.590388516 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=6, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.416345801 seconds
+Time: 0.416345801 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=6, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.093644554 seconds
+Time: 0.093644554 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=6, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.077053651 seconds
+Time: 0.077053651 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 800
+Running: Dimension=800, Iteration=7, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.557120041 seconds
+Time: 0.557120041 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=7, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.416167287 seconds
+Time: 0.416167287 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=7, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.081567243 seconds
+Time: 0.081567243 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=7, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.072747631 seconds
+Time: 0.072747631 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 800
+Running: Dimension=800, Iteration=8, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.480388431 seconds
+Time: 0.480388431 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=8, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.412090977 seconds
+Time: 0.412090977 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=8, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.085206417 seconds
+Time: 0.085206417 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=8, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.072249241 seconds
+Time: 0.072249241 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 800
+Running: Dimension=800, Iteration=9, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.448309641 seconds
+Time: 0.448309641 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=9, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.429014328 seconds
+Time: 0.429014328 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=9, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.081543987 seconds
+Time: 0.081543987 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=9, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.085897571 seconds
+Time: 0.085897571 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 800
+Running: Dimension=800, Iteration=10, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.471311176 seconds
+Time: 0.471311176 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=10, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.483878218 seconds
+Time: 0.483878218 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=10, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.085951420 seconds
+Time: 0.085951420 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=10, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.069619560 seconds
+Time: 0.069619560 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 800
+Running: Dimension=800, Iteration=11, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.464502029 seconds
+Time: 0.464502029 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=11, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.441187604 seconds
+Time: 0.441187604 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=11, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.164201672 seconds
+Time: 0.164201672 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=11, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.070668164 seconds
+Time: 0.070668164 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 800
+Running: Dimension=800, Iteration=12, Config=Standard
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.451128319 seconds
+Time: 0.451128319 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=12, Config=Transpose Only
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.413303856 seconds
+Time: 0.413303856 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=12, Config=O3 + loop
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.092411571 seconds
+Time: 0.092411571 seconds
+----------------------------------------
+Running: Dimension=800, Iteration=12, Config=O3 + transpose
+Matrix size: 800 x 800
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.073404284 seconds
+Time: 0.073404284 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 1600 × 1600
+=================================================================
+Iteration 1 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=1, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.269459807 seconds
+Time: 4.269459807 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=1, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.366176103 seconds
+Time: 3.366176103 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=1, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.916382080 seconds
+Time: 0.916382080 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=1, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.543270385 seconds
+Time: 0.543270385 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=2, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.258521514 seconds
+Time: 4.258521514 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=2, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.347796289 seconds
+Time: 3.347796289 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=2, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.920682747 seconds
+Time: 0.920682747 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=2, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.539576050 seconds
+Time: 0.539576050 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=3, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.358722436 seconds
+Time: 4.358722436 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=3, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.434343759 seconds
+Time: 3.434343759 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=3, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.927080971 seconds
+Time: 0.927080971 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=3, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.553605732 seconds
+Time: 0.553605732 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=4, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.298349116 seconds
+Time: 4.298349116 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=4, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.361342750 seconds
+Time: 3.361342750 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=4, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.924770211 seconds
+Time: 0.924770211 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=4, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.546587768 seconds
+Time: 0.546587768 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=5, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.373595658 seconds
+Time: 4.373595658 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=5, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.426411024 seconds
+Time: 3.426411024 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=5, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.968199361 seconds
+Time: 0.968199361 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=5, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.548317132 seconds
+Time: 0.548317132 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=6, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 7.140197727 seconds
+Time: 7.140197727 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=6, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.439213397 seconds
+Time: 3.439213397 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=6, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.951557710 seconds
+Time: 0.951557710 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=6, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.553618346 seconds
+Time: 0.553618346 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=7, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.303752477 seconds
+Time: 4.303752477 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=7, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.415400167 seconds
+Time: 3.415400167 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=7, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.952971329 seconds
+Time: 0.952971329 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=7, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.555495007 seconds
+Time: 0.555495007 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=8, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.348175414 seconds
+Time: 4.348175414 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=8, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.469515790 seconds
+Time: 3.469515790 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=8, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.943122618 seconds
+Time: 0.943122618 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=8, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.551232438 seconds
+Time: 0.551232438 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=9, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.442060343 seconds
+Time: 4.442060343 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=9, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 7.133518666 seconds
+Time: 7.133518666 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=9, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 1.096699680 seconds
+Time: 1.096699680 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=9, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.593050687 seconds
+Time: 0.593050687 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=10, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.437872207 seconds
+Time: 4.437872207 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=10, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.432621581 seconds
+Time: 3.432621581 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=10, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 1.029570682 seconds
+Time: 1.029570682 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=10, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.551150472 seconds
+Time: 0.551150472 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=11, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 8.005856828 seconds
+Time: 8.005856828 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=11, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.397169938 seconds
+Time: 3.397169938 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=11, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.934579022 seconds
+Time: 0.934579022 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=11, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.547809119 seconds
+Time: 0.547809119 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 1600
+Running: Dimension=1600, Iteration=12, Config=Standard
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 4.361135622 seconds
+Time: 4.361135622 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=12, Config=Transpose Only
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 3.516294677 seconds
+Time: 3.516294677 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=12, Config=O3 + loop
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 0.959540482 seconds
+Time: 0.959540482 seconds
+----------------------------------------
+Running: Dimension=1600, Iteration=12, Config=O3 + transpose
+Matrix size: 1600 x 1600
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 0.558281062 seconds
+Time: 0.558281062 seconds
+----------------------------------------
+=================================================================
+Processing dimension: 3200 × 3200
+=================================================================
+Iteration 1 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=1, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 52.395233039 seconds
+Time: 52.395233039 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=1, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 27.763254038 seconds
+Time: 27.763254038 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=1, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.618102196 seconds
+Time: 21.618102196 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=1, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.189728192 seconds
+Time: 4.189728192 seconds
+----------------------------------------
+Iteration 2 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=2, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 50.730369111 seconds
+Time: 50.730369111 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=2, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 27.875201435 seconds
+Time: 27.875201435 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=2, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.541283646 seconds
+Time: 21.541283646 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=2, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.333687870 seconds
+Time: 4.333687870 seconds
+----------------------------------------
+Iteration 3 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=3, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 49.674894262 seconds
+Time: 49.674894262 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=3, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 27.942274836 seconds
+Time: 27.942274836 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=3, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.656684990 seconds
+Time: 21.656684990 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=3, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 7.684220840 seconds
+Time: 7.684220840 seconds
+----------------------------------------
+Iteration 4 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=4, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 48.849652322 seconds
+Time: 48.849652322 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=4, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.128914740 seconds
+Time: 28.128914740 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=4, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 22.311887063 seconds
+Time: 22.311887063 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=4, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.265121798 seconds
+Time: 4.265121798 seconds
+----------------------------------------
+Iteration 5 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=5, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 49.461070226 seconds
+Time: 49.461070226 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=5, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.030004752 seconds
+Time: 28.030004752 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=5, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 22.181415309 seconds
+Time: 22.181415309 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=5, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.273431567 seconds
+Time: 4.273431567 seconds
+----------------------------------------
+Iteration 6 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=6, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 49.412621679 seconds
+Time: 49.412621679 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=6, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.181493858 seconds
+Time: 28.181493858 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=6, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.614386040 seconds
+Time: 21.614386040 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=6, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.264064001 seconds
+Time: 4.264064001 seconds
+----------------------------------------
+Iteration 7 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=7, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 52.416392722 seconds
+Time: 52.416392722 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=7, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.162075822 seconds
+Time: 28.162075822 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=7, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.763657245 seconds
+Time: 21.763657245 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=7, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.438113165 seconds
+Time: 4.438113165 seconds
+----------------------------------------
+Iteration 8 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=8, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 49.535785690 seconds
+Time: 49.535785690 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=8, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.195443675 seconds
+Time: 28.195443675 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=8, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.728878288 seconds
+Time: 21.728878288 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=8, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 8.551288850 seconds
+Time: 8.551288850 seconds
+----------------------------------------
+Iteration 9 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=9, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 51.898826320 seconds
+Time: 51.898826320 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=9, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.312298866 seconds
+Time: 28.312298866 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=9, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.841388973 seconds
+Time: 21.841388973 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=9, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.254228739 seconds
+Time: 4.254228739 seconds
+----------------------------------------
+Iteration 10 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=10, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 50.084895732 seconds
+Time: 50.084895732 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=10, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.100675268 seconds
+Time: 28.100675268 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=10, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.759792400 seconds
+Time: 21.759792400 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=10, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.238910327 seconds
+Time: 4.238910327 seconds
+----------------------------------------
+Iteration 11 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=11, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 49.941975754 seconds
+Time: 49.941975754 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=11, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.221280825 seconds
+Time: 28.221280825 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=11, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.914177745 seconds
+Time: 21.914177745 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=11, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.294473870 seconds
+Time: 4.294473870 seconds
+----------------------------------------
+Iteration 12 of 12 for dimension 3200
+Running: Dimension=3200, Iteration=12, Config=Standard
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 53.123082220 seconds
+Time: 53.123082220 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=12, Config=Transpose Only
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 28.129491965 seconds
+Time: 28.129491965 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=12, Config=O3 + loop
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 21.955419750 seconds
+Time: 21.955419750 seconds
+----------------------------------------
+Running: Dimension=3200, Iteration=12, Config=O3 + transpose
+Matrix size: 3200 x 3200
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 4.258861820 seconds
+Time: 4.258861820 seconds
+----------------------------------------
+All simulations completed.
+Results saved to: threads_matrix_results.csv
+Generating plot with existing script...
+Benchmark completed. Plot saved as matrix_multiplication_performance.png

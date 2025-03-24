@@ -1,0 +1,106 @@
+=== Threads Matrix Multiplication Optimization Comparison ===
+Size: 2000x2000 | 2025-03-24 15:51:46
+------------------------------------------------
+Testing: Standard
+Compiling: gcc  threads.c -o executables/threads_normal -lpthread
+Running: executables/threads_normal 2000 --result plain_matrices/result_standard.out 
+Matrix size: 2000 x 2000
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 9.114885171 seconds
+Testing: Transpose
+Compiling: gcc  threads.c -o executables/threads_transpose -lpthread
+Running: executables/threads_transpose 2000 --result plain_matrices/result_transpose.out --transpose
+Matrix size: 2000 x 2000
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 6.394514829 seconds
+Testing: O3 only
+Compiling: gcc -O3 threads.c -o executables/threads_O3 -lpthread
+Running: executables/threads_O3 2000 --result plain_matrices/result_O3.out 
+Matrix size: 2000 x 2000
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 2.746019376 seconds
+Testing: O3 + Transpose
+Compiling: gcc -O3 threads.c -o executables/threads_O3_trans -lpthread
+Running: executables/threads_O3_trans 2000 --result plain_matrices/result_O3_transpose.out --transpose
+Matrix size: 2000 x 2000
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 1.120791495 seconds
+Testing: O3 + Loop
+Compiling: gcc -O3 -floop-interchange threads.c -o executables/threads_O3_loop -lpthread
+Running: executables/threads_O3_loop 2000 --result plain_matrices/result_O3_loop.out 
+Matrix size: 2000 x 2000
+Using 6 thread(s)
+Using standard multiplication method
+Multiplication computation time: 2.121962280 seconds
+Testing: O3 + Loop + Transpose
+Compiling: gcc -O3 -floop-interchange threads.c -o executables/threads_O3_loop_trans -lpthread
+Running: executables/threads_O3_loop_trans 2000 --result plain_matrices/result_O3_loop_transpose.out --transpose
+Matrix size: 2000 x 2000
+Using 6 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 1.133813486 seconds
+Testing: Standard + DoubleThreads
+Compiling: gcc  threads.c -o executables/threads_normal_dbl -lpthread
+Running: executables/threads_normal_dbl 2000 --result plain_matrices/result_standard_dbl.out --doublethreads
+Matrix size: 2000 x 2000
+Using 12 thread(s)
+Using standard multiplication method
+Multiplication computation time: 8.991582648 seconds
+Testing: Transpose + DoubleThreads
+Compiling: gcc  threads.c -o executables/threads_transpose_dbl -lpthread
+Running: executables/threads_transpose_dbl 2000 --result plain_matrices/result_transpose_dbl.out --transpose --doublethreads
+Matrix size: 2000 x 2000
+Using 12 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 6.754775683 seconds
+Testing: O3 + DoubleThreads
+Compiling: gcc -O3 threads.c -o executables/threads_O3_dbl -lpthread
+Running: executables/threads_O3_dbl 2000 --result plain_matrices/result_O3_dbl.out --doublethreads
+Matrix size: 2000 x 2000
+Using 12 thread(s)
+Using standard multiplication method
+Multiplication computation time: 2.368371706 seconds
+Testing: O3 + Transpose + DoubleThreads
+Compiling: gcc -O3 threads.c -o executables/threads_O3_trans_dbl -lpthread
+Running: executables/threads_O3_trans_dbl 2000 --result plain_matrices/result_O3_transpose_dbl.out --transpose --doublethreads
+Matrix size: 2000 x 2000
+Using 12 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 1.073841286 seconds
+Testing: O3 + Loop + DoubleThreads
+Compiling: gcc -O3 -floop-interchange threads.c -o executables/threads_O3_loop_dbl -lpthread
+Running: executables/threads_O3_loop_dbl 2000 --result plain_matrices/result_O3_loop_dbl.out --doublethreads
+Matrix size: 2000 x 2000
+Using 12 thread(s)
+Using standard multiplication method
+Multiplication computation time: 2.484409821 seconds
+Testing: O3 + Loop + Transpose + DoubleThreads
+Compiling: gcc -O3 -floop-interchange threads.c -o executables/threads_O3_loop_trans_dbl -lpthread
+Running: executables/threads_O3_loop_trans_dbl 2000 --result plain_matrices/result_O3_loop_transpose_dbl.out --transpose --doublethreads
+Matrix size: 2000 x 2000
+Using 12 thread(s)
+Using transpose multiplication method
+Multiplication computation time: 1.287904635 seconds
+\n=== PERFORMANCE RESULTS ===
++--------------------------------------+--------------+------------+
+| Implementation                        | Time (sec)   | Speedup    |
++--------------------------------------+--------------+------------+
+| O3 + Transpose + DoubleThreads       |         1.07 |       8.48x |
+| O3 + Transpose                       |         1.12 |       8.13x |
+| O3 + Loop + Transpose                |         1.13 |       8.03x |
+| O3 + Loop + Transpose + DoubleThreads |         1.29 |       7.07x |
+| O3 + Loop                            |         2.12 |       4.29x |
+| O3 + DoubleThreads                   |         2.37 |       3.84x |
+| O3 + Loop + DoubleThreads            |         2.48 |       3.66x |
+| O3 only                              |         2.75 |       3.31x |
+| Transpose                            |         6.39 |       1.42x |
+| Transpose + DoubleThreads            |         6.75 |       1.34x |
+| Standard + DoubleThreads             |         8.99 |       1.01x |
+| Standard                             |         9.11 |       1.00x |
++--------------------------------------+--------------+------------+
+Detailed logs available in: logs/threads_optimization_comparison.log
+Executables saved in: executables/
