@@ -111,18 +111,20 @@ The scaling behavior of execution time with matrix size shows approximately O(nÂ
 Based on 2000Ã—2000 matrix multiplication tests, the following rankings emerge:
 
 **Threads:**
-1. O3 + Transpose + DoubleThreads: 1.07s (8.48x speedup)
-2. O3 + Transpose: 1.12s (8.13x speedup)
-3. O3 + Loop + Transpose: 1.13s (8.03x speedup)
-4. O3 + Loop + Transpose + DoubleThreads: 1.29s (7.07x speedup)
-5. O3 + Loop: 2.12s (4.29x speedup)
+1. O3 + Transpose + DoubleThreads: 1.07s (8.48x speedup vs thread standard)
+2. O3 + Transpose: 1.12s (8.13x speedup vs thread standard)
+3. O3 + Loop + Transpose: 1.13s (8.03x speedup vs thread standard)
+4. O3 + Loop + Transpose + DoubleThreads: 1.29s (7.07x speedup vs thread standard)
+5. O3 + Loop: 2.12s (4.29x speedup vs thread standard)
+6. Standard: 9.11s (baseline for threads)
 
 **Processes:**
-1. O3 + Loop + Transpose: 0.92s (7.57x speedup)
-2. O3 + Loop + Transpose + DoubleThreads: 0.99s (7.00x speedup)
-3. O3 + Transpose + DoubleThreads: 1.01s (6.90x speedup)
-4. O3 + Transpose: 1.06s (6.54x speedup)
-5. O3 + Loop: 1.94s (3.58x speedup)
+1. O3 + Loop + Transpose: 0.92s (7.57x speedup vs process standard)
+2. O3 + Loop + Transpose + DoubleThreads: 0.99s (7.00x speedup vs process standard)
+3. O3 + Transpose + DoubleThreads: 1.01s (6.90x speedup vs process standard)
+4. O3 + Transpose: 1.06s (6.54x speedup vs process standard)
+5. O3 + Loop: 1.94s (3.58x speedup vs process standard)
+6. Standard: 6.95s (baseline for processes)
 
 **Sequential:**
 1. O3 + Loop + Transpose: 5.34s (11.10x speedup vs. sequential standard)
