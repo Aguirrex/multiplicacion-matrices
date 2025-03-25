@@ -1,0 +1,322 @@
+=== Processes Matrix Multiplication Optimization Comparison ===
+Size: 2000x2000 | 2025-03-24 21:33:05
+------------------------------------------------
+Testing: Standard
+Compiling: gcc  processes.c -o executables/proc_normal
+Running: executables/proc_normal 2000 --result plain_matrices/result_standard.out 
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Using standard multiplication method
+Multiplication computation time: 6.952446940 seconds
+Testing: Transpose
+Compiling: gcc  processes.c -o executables/proc_transpose
+Running: executables/proc_transpose 2000 --result plain_matrices/result_transpose.out --transpose
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Using transpose multiplication method
+Multiplication computation time: 6.360760079 seconds
+Testing: O3 only
+Compiling: gcc -O3 processes.c -o executables/proc_O3
+Running: executables/proc_O3 2000 --result plain_matrices/result_O3.out 
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Using standard multiplication method
+Multiplication computation time: 2.037388382 seconds
+Testing: O3 + Transpose
+Compiling: gcc -O3 processes.c -o executables/proc_O3_trans
+Running: executables/proc_O3_trans 2000 --result plain_matrices/result_O3_transpose.out --transpose
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Using transpose multiplication method
+Multiplication computation time: 1.061824874 seconds
+Testing: O3 + Loop
+Compiling: gcc -O3 -floop-interchange processes.c -o executables/proc_O3_loop
+Running: executables/proc_O3_loop 2000 --result plain_matrices/result_O3_loop.out 
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Using standard multiplication method
+Multiplication computation time: 1.936836348 seconds
+Testing: O3 + Loop + Transpose
+Compiling: gcc -O3 -floop-interchange processes.c -o executables/proc_O3_loop_trans
+Running: executables/proc_O3_loop_trans 2000 --result plain_matrices/result_O3_loop_transpose.out --transpose
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Matrix size: 2000 x 2000
+Using 6 process(es)
+Using transpose multiplication method
+Multiplication computation time: 0.918030270 seconds
+Testing: Standard + DoubleThreads
+Compiling: gcc  processes.c -o executables/proc_normal_dbl
+Running: executables/proc_normal_dbl 2000 --result plain_matrices/result_standard_dbl.out --doublethreads
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Using standard multiplication method
+Multiplication computation time: 10.711834659 seconds
+Testing: Transpose + DoubleThreads
+Compiling: gcc  processes.c -o executables/proc_transpose_dbl
+Running: executables/proc_transpose_dbl 2000 --result plain_matrices/result_transpose_dbl.out --transpose --doublethreads
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Using transpose multiplication method
+Multiplication computation time: 6.555694196 seconds
+Testing: O3 + DoubleThreads
+Compiling: gcc -O3 processes.c -o executables/proc_O3_dbl
+Running: executables/proc_O3_dbl 2000 --result plain_matrices/result_O3_dbl.out --doublethreads
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Using standard multiplication method
+Multiplication computation time: 2.047239505 seconds
+Testing: O3 + Transpose + DoubleThreads
+Compiling: gcc -O3 processes.c -o executables/proc_O3_trans_dbl
+Running: executables/proc_O3_trans_dbl 2000 --result plain_matrices/result_O3_transpose_dbl.out --transpose --doublethreads
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Using transpose multiplication method
+Multiplication computation time: 1.006851267 seconds
+Testing: O3 + Loop + DoubleThreads
+Compiling: gcc -O3 -floop-interchange processes.c -o executables/proc_O3_loop_dbl
+Running: executables/proc_O3_loop_dbl 2000 --result plain_matrices/result_O3_loop_dbl.out --doublethreads
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Using standard multiplication method
+Multiplication computation time: 2.002564959 seconds
+Testing: O3 + Loop + Transpose + DoubleThreads
+Compiling: gcc -O3 -floop-interchange processes.c -o executables/proc_O3_loop_trans_dbl
+Running: executables/proc_O3_loop_trans_dbl 2000 --result plain_matrices/result_O3_loop_transpose_dbl.out --transpose --doublethreads
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Matrix size: 2000 x 2000
+Using 12 process(es)
+Using transpose multiplication method
+Multiplication computation time: 0.992741773 seconds
+\n=== PERFORMANCE RESULTS ===
++--------------------------------------+--------------+------------+
+| Implementation                        | Time (sec)   | Speedup    |
++--------------------------------------+--------------+------------+
+| O3 + Loop + Transpose                |         0.92 |       7.57x |
+| O3 + Loop + Transpose + DoubleThreads |         0.99 |       7.00x |
+| O3 + Transpose + DoubleThreads       |         1.01 |       6.90x |
+| O3 + Transpose                       |         1.06 |       6.54x |
+| O3 + Loop                            |         1.94 |       3.58x |
+| O3 + Loop + DoubleThreads            |         2.00 |       3.47x |
+| O3 only                              |         2.04 |       3.41x |
+| O3 + DoubleThreads                   |         2.05 |       3.39x |
+| Transpose                            |         6.36 |       1.09x |
+| Transpose + DoubleThreads            |         6.56 |       1.06x |
+| Standard                             |         6.95 |       1.00x |
+| Standard + DoubleThreads             |        10.71 |       0.64x |
++--------------------------------------+--------------+------------+
+Detailed logs available in: logs/processes_optimization_comparison.log
+Executables saved in: executables/
