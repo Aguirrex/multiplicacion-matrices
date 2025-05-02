@@ -82,6 +82,7 @@ void* multiplyTranspose(int n, int** matrix1, int** matrix2, int** resultMatrix)
 }
 
 int main(int argc, char *argv[]) {
+    int numThreads = 1;
     int n = 2000;
     int useFiles = 0;
     int useTranspose = 0; // Flag for transpose method
@@ -102,8 +103,12 @@ int main(int argc, char *argv[]) {
             strcpy(fileResult, argv[++i]);
         } else if(strcmp(argv[i], "--transpose") == 0) {
             useTranspose = 1;
+        } else if(strcmp(argv[i], "--threads") == 0 && (i+1 < argc)) {
+            numThreads = atoi(argv[++i]);
         }
     }
+    omp_set_num_threads(numThreads);
+    printf("Running with %d threads\n", numThreads);
 
 
     printf("Matrix size: %d x %d\n", n, n);
@@ -148,9 +153,9 @@ int main(int argc, char *argv[]) {
     // Decide which kernel function to use
     void* (*kernelFunc)(int, int**, int**, int**);
     if(useTranspose) {
-        kernelFunc = multiplyStandard;
-    } else {
         kernelFunc = multiplyTranspose;
+    } else {
+        kernelFunc = multiplyStandard;
     }
 
     struct timespec start,end;
